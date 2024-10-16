@@ -1,0 +1,90 @@
+/* slot-learning/src/components/ParentComponentEg1.css */
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.styled-button-green {
+  background-color: green; /* Initial background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+.styled-button-blue {
+  background-color: rgb(27, 28, 27); /* Initial background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.styled-button-green:hover {
+  background-color: brown; /* Background color on hover */
+}
+.styled-button-blue:hover {
+  background-color: brown; /* Background color on hover */
+}
+
+/*Child Components style below*/
+.clothing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.clothing-item {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.clothing-item:hover {
+  background-color: #e0e0e0;
+}
+
+.item-1 {
+  background-color: #e3f2fd; /* Light blue */
+}
+
+.item-2 {
+  background-color: #fce4ec; /* Light pink */
+}
+
+.item-3 {
+  background-color: #e8f5e9; /* Light green */
+}
+
+.item-4 {
+  background-color: lightgrey; /* grey */
+  color: white;
+}
