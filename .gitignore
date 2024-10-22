@@ -18,3 +18,8 @@ slot-learning/eg1-Parent-image.png
 slot-learning/jsconfig.json
 slot-learning/public/favicon.ico
 package-lock.json
+keep-alive-demo/README.md
+keep-alive-demo/.vscode/extensions.json
+keep-alive-demo/public/vite.svg
+keep-alive-demo/src/assets/vue.svg
+keep-alive-demo/vite.config.js
